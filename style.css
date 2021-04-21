@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+	
+}
+img {
+	max-width: 100%;
+}
+.bg-light {
+	background: #082150!important;
+	font-size: 22px;
+}
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+	color: #fff;
+}
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:active, .navbar-light .navbar-brand:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #69ABDC!important;
+	font-size: 22px;
+}
+.hero {
+	background: url("img/hero.jpg");
+	background-attachment: scroll;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	text-align: center;
+}
+.hero-text {
+	padding-top: 300px;
+	color: #fff;
+}
+.hero-text a {
+	text-decoration: none;
+	padding: 10px;
+	background: #fff;
+	color: #082150;
+	border-radius: 5px;
+}
+.hero-text h1 {
+	font-weight: bold;
+}
+.main h3 {
+	color: #082150;
+	font-weight: bold;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.main a {
+	text-decoration: none;
+	padding: 10px;
+	background: #082150;
+	color: #fff;
+	border-radius: 5px;
+}
+.main img {
+	padding-top: 20px;
+}
+.content {
+	background: #ccc;
+	margin-top: 30px;
+	text-align: center;
+}
+.content h3 {
+	color: #082150;
+	font-weight: bold;
+	padding-top: 20px;
+}
+.card {
+	margin: 10px auto;
+	text-align: center;
+}
+.card h5 {
+	margin: 30px 0;
+	font-size: 30px;
+	color: #082150;
+	padding: 10px;
+	font-weight: bold;
+}
+.card img {
+	padding: 10px;
+}
+.card .btn-primary {
+	text-decoration: none;
+	padding: 10px;
+	background: #082150;
+	color: #fff;
+	border-radius: 5px;
+}
+.side h3 {
+	color: #082150;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.footer p {
+	background: #082150;
+	color: #69ABDC;
+	height: 60px;
+	margin: 0;
+	margin-top: 30px;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 10px;
+}
+.hero2 {
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("img/1.jpg");
+	background-attachment: scroll;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	text-align: center;
+}
+.hero2 h1 {
+	font-size: 70px;
+	font-weight: bold;
+}
+.main2 .container {
+	max-width: 900px;
+}
+.carousel-inner {
+	padding-top: 40px;
+}
+.d-md-block {
+	color: #000;
+}
+.side2 {
+	text-align: center;
+}
+.side2 img {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.hero3 {
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("img/2.jpg");
+	background-attachment: scroll;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	text-align: center;
+}
+.hero3 h1 {
+	font-size: 70px;
+	font-weight: bold;
+}
+.main3 .container {
+	max-width: 700px;
+}
+.form-label {
+	color: #082150;
+	margin-top: 40px;
+}
+
+.main3 .btn-primary {
+	text-decoration: none;
+	padding: 10px;
+	background: #082150;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.soc3 iframe {
+	margin-top: 40px;
+	padding-bottom: 40px;
+}
+.soc3 {
+	max-width: 1000px;
+	margin: 0 auto;
+}

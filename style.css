@@ -10,6 +10,10 @@ html {
 	scroll-behavior: smooth;
 	
 }
+.navbar-light .navbar-toggler {
+    color: #fff;
+    background: #fff; 
+}
 img {
 	max-width: 100%;
 }
